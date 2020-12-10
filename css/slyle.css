@@ -140,7 +140,7 @@ img {
 /* ----------параметры шрифта студия + портфолио + контакты ------------------*/
 
 .navigation-list-link {
-  outline: 1px solid black;
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -151,6 +151,23 @@ img {
   padding-bottom: 32px;
 }
 
+.navigation-list-link::after {
+  position: absolute;
+  content: '';
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  opacity: 0;
+}
+
+.navigation-list-link:hover::after {
+  opacity: 1;
+}
+
 /* ------------ flex номер + имеил ------------------*/
 
 .container-address {
@@ -159,7 +176,6 @@ img {
 
 .address-list {
   display: flex;
-  outline: 1px solid black;
   padding-top: 32px;
   padding-bottom: 32px;
 }
