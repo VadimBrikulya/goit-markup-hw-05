@@ -140,18 +140,26 @@ img {
 /* ----------параметры шрифта студия + портфолио + контакты ------------------*/
 
 .navigation-list-link {
+  outline: 1px solid black;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secondary-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ------------ flex номер + имеил ------------------*/
 
+.container-address {
+  display: flex;
+}
+
 .address-list {
   display: flex;
+  outline: 1px solid black;
   padding-top: 32px;
   padding-bottom: 32px;
 }
