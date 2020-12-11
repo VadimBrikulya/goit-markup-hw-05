@@ -304,14 +304,22 @@ img {
 /*-------кнопка крестик---------------*/
 .close {
   position: absolute;
-  display: inline-block;
   right: 8px;
   top: 8px;
   width: 30px;
   height: 30px;
   cursor: pointer;
   border-radius: 50%;
-  border: none;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button-link:hover {
+  color: var(--accent-color);
+}
+
+.box-button {
+  display: flex;
 }
 
 /*---------------block III-------------------*/
