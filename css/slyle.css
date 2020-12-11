@@ -149,6 +149,7 @@ img {
   color: var(--secondary-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: 300ms;
 }
 
 .navigation-list-link::after {
@@ -162,6 +163,7 @@ img {
   background-color: var(--accent-color);
   border-radius: 2px;
   opacity: 0;
+  transition: 300ms;
 }
 
 .navigation-list-link:hover::after {
@@ -281,8 +283,9 @@ img {
 
 .backdrop.is-hidden {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
-  transition: 500ms;
+  transition: all 100ms linear;
 }
 
 .modal {
@@ -291,7 +294,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 581px;
-  width: 528px;
+  min-width: 528px;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -302,32 +305,13 @@ img {
 .close {
   position: absolute;
   display: inline-block;
-  right: 17px;
-  top: 17;
-  width: 17px;
-  height: 17px;
-
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
-}
-
-/* .close:hover {
-  opacity: 1;
-} */
-
-.close:before,
-.close:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #000000;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
+  border-radius: 50%;
+  border: none;
 }
 
 /*---------------block III-------------------*/
