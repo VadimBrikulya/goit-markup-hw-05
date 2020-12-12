@@ -732,7 +732,7 @@ img {
 }
 
 .image-thumb:hover .bg-text {
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 
 .bg-text {
@@ -744,7 +744,7 @@ img {
   height: 100%;
   width: 100%;
   background: rgba(33, 150, 243, 0.9);
-  transition: transform 500ms linear;
+  transition: transform 250ms linear;
   transform: translateY(100%);
 }
 .item-text {
