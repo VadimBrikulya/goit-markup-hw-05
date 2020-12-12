@@ -151,8 +151,9 @@ img {
   padding-bottom: 32px;
   transition: 300ms;
 }
+/* -------------------нижнее подчеркивание------------------------ */
 
-.navigation-list-link::after {
+.navigation-menu .navigation-list-link.current::after {
   position: absolute;
   content: '';
   display: block;
@@ -162,13 +163,12 @@ img {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  opacity: 0;
   transition: 300ms;
 }
 
-.navigation-list-link:hover::after {
+/* .navigation-list-link:hover::after {
   opacity: 1;
-}
+} */
 
 /* ------------ flex номер + имеил ------------------*/
 
