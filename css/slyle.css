@@ -763,7 +763,7 @@ img {
   margin-left: 30px;
   margin-top: 30px;
   background-color: #ffffff;
-  /* border: 1px solid #eeeeee; */
+  border: 1px solid #eeeeee;
   cursor: pointer;
 }
 
