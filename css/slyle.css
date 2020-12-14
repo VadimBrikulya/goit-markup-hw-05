@@ -197,6 +197,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
+  transition: 500ms;
 }
 .tel-icon,
 .email-icon {
@@ -508,6 +509,7 @@ img {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
+  transition: 500ms;
 }
 
 .icon-list-link:hover,
@@ -549,6 +551,7 @@ img {
   color: var(--logo-client);
   border: 1px solid var(--logo-client);
   border-radius: 4px;
+  transition: 500ms;
 }
 
 .client-link:hover,
@@ -643,6 +646,7 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
+  transition: 500ms;
 }
 
 .footer-social {
@@ -689,6 +693,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  transition: 500ms;
 }
 
 .portfolio-btn.button:hover,
