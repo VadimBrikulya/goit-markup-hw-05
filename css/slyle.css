@@ -770,6 +770,7 @@ img {
   background-color: #ffffff;
   border: 1px solid #eeeeee;
   cursor: pointer;
+  transition: 500ms;
 }
 
 .title {
