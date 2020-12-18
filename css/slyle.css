@@ -304,12 +304,20 @@ img {
   padding: 40px;
 }
 /* ------------офрмление форм------------------- */
-.madal-form {
+.modal-form {
   display: flex;
   flex-direction: column;
 }
 
-.madal-form-input {
+.modal-form-messege {
+  width: 100%;
+  height: 120px;
+  resize: none;
+}
+.modal-form-messege::placeholder{
+  te
+}
+.modal-form-input {
   width: 100%;
   width: 40px;
   border-radius: 4px;
